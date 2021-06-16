@@ -45,3 +45,28 @@ The generation command may accept the following option :
 will be stored.
 - `--show-animation` (optional): If specified the drawing animation of each image, 
 will be activated. **Note that if this option is activated, the generation process will be very slow.**
+
+## Modification
+
+```
+generator/shapes.py: 
+    def __convert_image():
+       ...
+       
+    def generate():
+       __convert_image()
+```
+And 
+```
+generator/shape_generator.py: 
+    def mean_std():
+       ...
+       
+    def generate_shapes():
+       mean_std()
+```
+
+
+
+# signal
+Folder signal comes from https://github.com/DianeBouchacourt/SignalingGame.git. 
